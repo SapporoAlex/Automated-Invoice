@@ -31,6 +31,7 @@ The script performs the following tasks:
    ```bash
    pip install openpyxl
 ```
+
 2. Update the following information in the Python script:
 
 Set your email credentials (email_sender, email_password, email_receiver).
