@@ -3,7 +3,15 @@
 This Python script takes monthly totals for, in this case, translation fees from an excel table. It will write and send an email to the client, the email message states the total fee for that month, and attaches the payments table file and an invoice file.
 
 ## Table of Contents
--Overview
+
+- [Overview](#overview)
+- [Usage](#usage)
+- [Files](#files)
+- [Email Content](#email-content)
+- [Dependencies](#dependencies)
+- [Important Notes](#important-notes)
+- [Author](#author)
+- [License](#license)
 
 ## Overview
 
@@ -43,19 +51,24 @@ monthly_invoice_generator.py: Python script for generating and sending invoices.
 {invoice_year} Payments.xlsx: Excel file containing payment data.
 
 ## Email Content
+
 The email includes the following information:
 
 Subject: 今月の請求書 (This month's invoice)
 Body: A message with details about the invoice and a statement of completion.
 
 ## Dependencies
-openpyxl
+
+[openpyxl](https://pypi.org/project/openpyxl/)
 
 ## Important Notes
+
 The script is configured to use a Gmail SMTP server. Ensure that your email provider allows SMTP access and adjust server details if necessary.
 
 ## Author
+
 Alex McKinley
 
 ## License
-This project is licensed under the MIT License.
+
+This project is licensed under the [MIT License](LICENSE).
