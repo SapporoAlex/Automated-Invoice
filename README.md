@@ -30,7 +30,7 @@ The script performs the following tasks:
 
    ```bash
    pip install openpyxl
-```
+   ```
 
 2. Update the following information in the Python script:
 
@@ -39,9 +39,9 @@ Customize the file names and paths for the Payments Excel file and the invoice t
   
 3. Run the script:
 
-  ```bash
-  python monthly_invoice_generator.py
-```
+   ```bash
+   python monthly_invoice_generator.py
+   ```
 
 Check your email for the generated invoice and payment details.
 
