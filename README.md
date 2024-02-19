@@ -1,7 +1,7 @@
 # Automated Invoice
 This Python script takes monthly totals for, in this case, translation fees from an excel table. It will write and send an email to the client, the email message states the total fee for that month, and attaches the payments table file and an invoice file.
 
-<img src="https://github.com/SapporoAlex/Automated-Invoice/blob/main/preview.jpg" width="400" height="300">
+<img src="https://github.com/SapporoAlex/Automated-Invoice/blob/main/preview.jpg" width="500" height="300">
 
 ## Table of Contents
 - [Overview](#overview)
